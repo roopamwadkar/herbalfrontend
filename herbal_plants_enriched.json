@@ -1,0 +1,873 @@
+[
+  {
+    "_id": { "$oid": "69c39f1d53cc9c90791a0257" },
+    "name": "Tulsi",
+    "scientific_name": "Ocimum tenuiflorum L.",
+    "type": "Immunity",
+    "desc": "Boost immunity",
+    "usage": "Leaves consumed as tea or raw to boost immunity, treat cold, cough, and respiratory infections.",
+    "benefits": "Immunomodulatory, antibacterial, antiviral, adaptogenic, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tulsi_%28Ocimum_tenuiflorum%29_in_Hyderabad_W_IMG_6729.jpg/640px-Tulsi_%28Ocimum_tenuiflorum%29_in_Hyderabad_W_IMG_6729.jpg",
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "69c3a176a998fc13494b4d65" },
+    "name": "Neem",
+    "scientific_name": "Azadirachta indica A.Juss.",
+    "type": "Skin",
+    "desc": "Good for skin",
+    "usage": "Leaves paste applied to skin for acne, eczema, and infections. Bark used for dental hygiene.",
+    "benefits": "Antibacterial, antifungal, anti-inflammatory, blood purifier, insecticidal",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Azadirachta_indica_%28Neem%29_in_Hyderabad_W_IMG_6445.jpg/640px-Azadirachta_indica_%28Neem%29_in_Hyderabad_W_IMG_6445.jpg"
+  },
+  {
+    "_id": { "$oid": "69c3a176a998fc13494b4d66" },
+    "name": "Turmeric",
+    "scientific_name": "Curcuma longa L.",
+    "type": "Immunity",
+    "desc": "Anti inflammatory",
+    "usage": "Rhizome powder added to food or milk (golden milk). Used topically for wound healing.",
+    "benefits": "Anti-inflammatory, antioxidant, antimicrobial, hepatoprotective, anticancer properties",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Curcuma_longa_roots.jpg/640px-Curcuma_longa_roots.jpg"
+  },
+  {
+    "_id": { "$oid": "69c3a176a998fc13494b4d67" },
+    "name": "Aloe Vera",
+    "scientific_name": "Aloe barbadensis Mill.",
+    "type": "Skin",
+    "desc": "Good for skin",
+    "usage": "Gel extracted from leaves applied topically for burns, sunburn, moisturization, and wound healing.",
+    "benefits": "Skin soothing, anti-inflammatory, wound healing, laxative (latex), antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/640px-Aloe_vera_flower_inset.png"
+  },
+  {
+    "_id": { "$oid": "69c3a208a998fc13494b4d69" },
+    "name": "Ginger",
+    "scientific_name": "Zingiber officinale Roscoe",
+    "type": "Digestion",
+    "desc": "Helps in digestion and cold",
+    "usage": "Rhizome used in teas, cooking, and supplements. Relieves nausea, indigestion, and cold symptoms.",
+    "benefits": "Digestive stimulant, anti-nausea, anti-inflammatory, analgesic, antioxidant",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Zingiber-officinale.jpg/640px-Zingiber-officinale.jpg"
+  },
+  {
+    "_id": { "$oid": "69c3a208a998fc13494b4d6a" },
+    "name": "Ashwagandha",
+    "scientific_name": "Withania somnifera (L.) Dunal",
+    "type": "Stress",
+    "desc": "Reduces stress and improves strength",
+    "usage": "Root powder consumed with milk or as capsules. Reduces cortisol levels and enhances endurance.",
+    "benefits": "Adaptogenic, stress-relieving, immunomodulatory, anti-inflammatory, neuroprotective",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Withania_somnifera.jpg/640px-Withania_somnifera.jpg"
+  },
+  {
+    "_id": { "$oid": "69c3a208a998fc13494b4d6b" },
+    "name": "Mint",
+    "scientific_name": "Mentha spicata L.",
+    "type": "Digestion",
+    "desc": "Good for stomach and freshness",
+    "usage": "Leaves used in teas, chutneys, and mouth fresheners. Relieves indigestion and IBS symptoms.",
+    "benefits": "Digestive, carminative, antimicrobial, analgesic, cooling, refreshing",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Mint-leaves-2007.jpg/640px-Mint-leaves-2007.jpg"
+  },
+  {
+    "_id": { "$oid": "69c3a208a998fc13494b4d6c" },
+    "name": "Giloy",
+    "scientific_name": "Tinospora cordifolia (Willd.) Miers",
+    "type": "Immunity",
+    "desc": "Improves immunity and fights fever",
+    "usage": "Stem juice or powder taken internally. Used in Ayurveda for fever, dengue, and immune support.",
+    "benefits": "Immunomodulatory, antipyretic, anti-inflammatory, antioxidant, antidiabetic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Tinospora_cordifolia.jpg/640px-Tinospora_cordifolia.jpg"
+  },
+  {
+    "_id": { "$oid": "69c3a208a998fc13494b4d6d" },
+    "name": "Brahmi",
+    "scientific_name": "Bacopa monnieri (L.) Wettst.",
+    "type": "Brain",
+    "desc": "Improves memory and brain power",
+    "usage": "Leaves taken as juice, powder or capsules. Used for cognitive enhancement and stress relief.",
+    "benefits": "Nootropic, memory enhancer, anxiolytic, neuroprotective, adaptogenic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bacopa_monnieri_2.jpg/640px-Bacopa_monnieri_2.jpg"
+  },
+  {
+    "_id": { "$oid": "69c3a208a998fc13494b4d6e" },
+    "name": "Lemon",
+    "scientific_name": "Citrus limon (L.) Osbeck",
+    "type": "Skin",
+    "desc": "Rich in vitamin C and good for skin",
+    "usage": "Juice applied topically for skin brightening. Consumed in water for detox and immune support.",
+    "benefits": "Antioxidant, vitamin C source, skin brightening, antimicrobial, digestive aid",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponotus_flavomarginatus_ant.jpg/640px-Camponotus_flavomarginatus_ant.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2800" },
+    "name": "Ran Bhendi",
+    "scientific_name": "Abelmoschus ficulneus (L.) Wight & Arn.",
+    "type": "Skin",
+    "desc": "A wild okra species used in folk medicine across India.",
+    "usage": "Leaves and seeds used as poultice for skin diseases; decoction taken for fever and inflammation.",
+    "benefits": "Anti-inflammatory, antipyretic, skin healing, emollient",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Abelmoschus_ficulneus_flowers.jpg/640px-Abelmoschus_ficulneus_flowers.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2801" },
+    "name": "Jangli Bhindi",
+    "scientific_name": "Abelmoschus manihot (L.) Medik.",
+    "type": "Digestion",
+    "desc": "A wild relative of okra used in traditional Indian medicine.",
+    "usage": "Leaves and flowers consumed as vegetables or herbal teas; used for digestive complaints and wounds.",
+    "benefits": "Digestive, anti-inflammatory, wound healing, mild laxative",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Abelmoschus_manihot_Flower.jpg/640px-Abelmoschus_manihot_Flower.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2802" },
+    "name": "Muskdana",
+    "scientific_name": "Abelmoschus moschatus Medik.",
+    "type": "Immunity",
+    "desc": "Musk mallow with aromatic seeds used in Ayurvedic medicine.",
+    "usage": "Seeds used as nervine tonic and carminative; oil used in perfumery and topically for skin.",
+    "benefits": "Antispasmodic, carminative, nervine tonic, aphrodisiac, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Abelmoschus_moschatus.jpg/640px-Abelmoschus_moschatus.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2803" },
+    "name": "Talish patra",
+    "scientific_name": "Abies spectabilis (D. Don) Spach.",
+    "type": "Respiratory",
+    "desc": "Himalayan silver fir used in Ayurvedic and Tibetan medicine.",
+    "usage": "Bark and leaves used as decoction for treating cough, asthma, and bronchitis.",
+    "benefits": "Expectorant, anti-asthmatic, anti-inflammatory, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Abies_spectabilis_1.jpg/640px-Abies_spectabilis_1.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2804" },
+    "name": "Ulatkambal",
+    "scientific_name": "Abroma agusta (L.) L.f.",
+    "type": "Skin",
+    "desc": "Devil's cotton, used in traditional Indian medicine for gynecological and skin conditions.",
+    "usage": "Root bark used for menstrual disorders; leaves applied topically for skin problems.",
+    "benefits": "Emmenagogue, anti-inflammatory, wound healing, antidiabetic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Abroma_augusta_-_flowers.jpg/640px-Abroma_augusta_-_flowers.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2805" },
+    "name": "Ratti",
+    "scientific_name": "Abrus precatorius L.",
+    "type": "Skin",
+    "desc": "Rosary pea used cautiously in Ayurveda; seeds are toxic in large doses.",
+    "usage": "Leaves used for skin diseases and hair loss; root used as a tonic in very small quantities.",
+    "benefits": "Antibacterial, antifungal, hair tonic, anti-inflammatory (use with caution)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Abrus_precatorius_fruits.jpg/640px-Abrus_precatorius_fruits.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2806" },
+    "name": "Barakanghi",
+    "scientific_name": "Abutilon hirtum (Lam.) Sweet",
+    "type": "Immunity",
+    "desc": "A hairy mallow species used in folk medicine for immune support.",
+    "usage": "Leaves used as diuretic and antipyretic; seeds used for treating cough and urinary disorders.",
+    "benefits": "Diuretic, antipyretic, immunostimulant, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Abutilon_hirtum.jpg/640px-Abutilon_hirtum.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2807" },
+    "name": "Kanghi",
+    "scientific_name": "Abutilon indicum (L.) Sweet",
+    "type": "Respiratory",
+    "desc": "Indian mallow used widely in Ayurvedic medicine for respiratory conditions.",
+    "usage": "Root and bark decoction for cough, bronchitis; leaves applied for joint pain.",
+    "benefits": "Expectorant, anti-inflammatory, analgesic, aphrodisiac, diuretic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Abutilon_indicum01.jpg/640px-Abutilon_indicum01.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2808" },
+    "name": "Kakrai",
+    "scientific_name": "Abutilon pannosum (Forst.) Schlect.",
+    "type": "Skin",
+    "desc": "A fibrous mallow species used in traditional Indian medicine.",
+    "usage": "Used for treating skin diseases, fevers, and rheumatic conditions in folk medicine.",
+    "benefits": "Anti-inflammatory, antipyretic, skin healing",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Abutilon_grandifolium_Blanco1.157-cropped.jpg/640px-Abutilon_grandifolium_Blanco1.157-cropped.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2809" },
+    "name": "Indian Mallow",
+    "scientific_name": "Abutilon theophrastii Medik.",
+    "type": "Digestion",
+    "desc": "Velvet leaf or Indian mallow used as a traditional digestive and skin remedy.",
+    "usage": "Seeds used for dysentery and diarrhea; leaves as poultice for skin inflammation.",
+    "benefits": "Antidiarrheal, anti-inflammatory, demulcent, emollient",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Abutilon_theophrasti_NRCS-1.jpg/640px-Abutilon_theophrasti_NRCS-1.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b280a" },
+    "name": "Vilayati kikar",
+    "scientific_name": "Acacia farnesiana (L.) Willd.",
+    "type": "Immunity",
+    "desc": "Sweet acacia used in perfumery and traditional medicine.",
+    "usage": "Bark and pods used as astringent for throat infections; flowers used in perfumes and tonics.",
+    "benefits": "Astringent, antimicrobial, anti-inflammatory, antispasmodic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Acacia_farnesiana_flowers.jpg/640px-Acacia_farnesiana_flowers.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b280b" },
+    "name": "Kikar",
+    "scientific_name": "Acacia jacquemontii Benth.",
+    "type": "Skin",
+    "desc": "A thorny acacia native to the arid regions of India and Pakistan.",
+    "usage": "Gum and bark used for skin diseases, wound healing, and as an astringent.",
+    "benefits": "Astringent, antimicrobial, wound healing, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Vachellia_nilotica_pods.jpg/640px-Vachellia_nilotica_pods.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b280c" },
+    "name": "Safed kikar",
+    "scientific_name": "Acacia leucophloea (Roxb.) Willd.",
+    "type": "Digestion",
+    "desc": "White-barked acacia used in traditional Indian medicine.",
+    "usage": "Bark decoction used for diarrhea and dysentery; gum used as demulcent for stomach ailments.",
+    "benefits": "Antidiarrheal, astringent, demulcent, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Acacia_leucophloea.JPG/640px-Acacia_leucophloea.JPG"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b280d" },
+    "name": "Phulai",
+    "scientific_name": "Acacia modesta Wall.",
+    "type": "Immunity",
+    "desc": "A thorny shrub from northwestern India used in folk medicine.",
+    "usage": "Bark decoction used as tonic and for treating fever; leaves as fodder and in herbal preparations.",
+    "benefits": "Antipyretic, immunostimulant, astringent, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Acacia_modesta.jpg/640px-Acacia_modesta.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b280e" },
+    "name": "Babula",
+    "scientific_name": "Acacia nilotica (L.) Willd. ex Delile",
+    "type": "Dental",
+    "desc": "Egyptian thorn acacia widely used in Ayurveda for dental and skin care.",
+    "usage": "Bark used for toothache, gingivitis; gum as astringent; pods for diarrhea.",
+    "benefits": "Dental astringent, antimicrobial, antidiarrheal, wound healing, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Vachellia_nilotica_subsp._indica.jpg/640px-Vachellia_nilotica_subsp._indica.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b280f" },
+    "name": "Aila",
+    "scientific_name": "Acacia pennata (L.) Willd.",
+    "type": "Immunity",
+    "desc": "Climbing wattle used in Southeast Asian and Indian folk medicine.",
+    "usage": "Leaves and bark used for treating skin infections and as general immunity tonic.",
+    "benefits": "Antimicrobial, astringent, anti-inflammatory, immunomodulatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Acacia_pennata_%28Fabaceae%29.jpg/640px-Acacia_pennata_%28Fabaceae%29.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2810" },
+    "name": "Kochi",
+    "scientific_name": "Acacia rugata (Lam.) Merr.",
+    "type": "Skin",
+    "desc": "A thorny acacia used in traditional South Asian medicine for skin conditions.",
+    "usage": "Bark and leaf extracts applied for skin infections, rashes, and as astringent.",
+    "benefits": "Astringent, antimicrobial, anti-inflammatory, wound healing",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Acacia_concinna_pods.jpg/640px-Acacia_concinna_pods.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2811" },
+    "name": "Goradio-babul",
+    "scientific_name": "Acacia senegal (L.) Willd.",
+    "type": "Respiratory",
+    "desc": "Senegalia senegal, source of gum arabic, used for respiratory and digestive ailments.",
+    "usage": "Gum dissolved in water taken for sore throat, cough, and as expectorant.",
+    "benefits": "Expectorant, demulcent, anti-inflammatory, soothing for mucous membranes",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Senegalia_senegal.jpg/640px-Senegalia_senegal.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2812" },
+    "name": "Kuppi",
+    "scientific_name": "Acalypha indica L.",
+    "type": "Respiratory",
+    "desc": "Indian acalypha used in Siddha and Ayurvedic medicine for respiratory disorders.",
+    "usage": "Leaves used as expectorant for bronchitis and asthma; juice applied for skin diseases.",
+    "benefits": "Expectorant, antimicrobial, anti-inflammatory, anthelmintic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Acalypha_indica_at_Mahabalipuram.jpg/640px-Acalypha_indica_at_Mahabalipuram.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2813" },
+    "name": "Candle Nut Tree",
+    "scientific_name": "Aleurites mollucana Willd.",
+    "type": "Skin",
+    "desc": "Kukui nut tree, whose oil is used extensively in skin care.",
+    "usage": "Nut oil applied topically for dry skin, eczema, and wound healing.",
+    "benefits": "Moisturizing, anti-inflammatory, wound healing, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Aleurites_moluccanus_fruits.jpg/640px-Aleurites_moluccanus_fruits.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2814" },
+    "name": "Alasyakampa",
+    "scientific_name": "Acampe papillosa (Lindl.) Lindl.",
+    "type": "Immunity",
+    "desc": "A monopodial orchid used in traditional tribal medicine in India.",
+    "usage": "Whole plant paste used for joint pain and immune support in folk remedies.",
+    "benefits": "Anti-inflammatory, analgesic, immunostimulant",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Acampe_papillosa.jpg/640px-Acampe_papillosa.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2815" },
+    "name": "Hargoza",
+    "scientific_name": "Acanthus illicifolius L.",
+    "type": "Immunity",
+    "desc": "Sea holly, a mangrove shrub used in coastal folk medicine in India.",
+    "usage": "Root and leaf decoction used for asthma, paralysis, and as general tonic.",
+    "benefits": "Immunomodulatory, antioxidant, analgesic, antinociceptive",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Acanthus_ilicifolius_flowers.jpg/640px-Acanthus_ilicifolius_flowers.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2816" },
+    "name": "Kirayat",
+    "scientific_name": "Andrographis paniculata (Burm.) Wall. ex Nees",
+    "type": "Immunity",
+    "desc": "King of bitters, a key herb in Ayurveda and traditional Chinese medicine.",
+    "usage": "Leaves and stems used as bitter tonic for fever, liver disorders, and immune support.",
+    "benefits": "Immunostimulant, antipyretic, hepatoprotective, anti-inflammatory, antiviral",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Andrographis_paniculata_flowers_leaves.jpg/640px-Andrographis_paniculata_flowers_leaves.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2817" },
+    "name": "Gandana",
+    "scientific_name": "Achillea millefolium L.",
+    "type": "Immunity",
+    "desc": "Yarrow, a widely used medicinal herb in Europe and Asia.",
+    "usage": "Aerial parts used as tea for fever, cold, wound healing, and digestive complaints.",
+    "benefits": "Antipyretic, anti-inflammatory, antimicrobial, astringent, wound healing",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Achillea_millefolium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-003.jpg/640px-Achillea_millefolium_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-003.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2818" },
+    "name": "Jangli-jira",
+    "scientific_name": "Adenostemma lavenia (L.) Kuntze",
+    "type": "Respiratory",
+    "desc": "A weed used in folk medicine across tropical Asia.",
+    "usage": "Leaves used as poultice for wounds; decoction taken for cough and fever.",
+    "benefits": "Expectorant, wound healing, antipyretic, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Adenostemma_lavenia.jpg/640px-Adenostemma_lavenia.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2819" },
+    "name": "Latjira",
+    "scientific_name": "Achyranthes aspera L.",
+    "type": "Respiratory",
+    "desc": "Prickly chaff flower, widely used in Ayurveda for respiratory and urinary conditions.",
+    "usage": "Whole plant used for cough, asthma, kidney stones, and as diuretic.",
+    "benefits": "Expectorant, diuretic, anti-inflammatory, antipyretic, anthelmintic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Achyranthes_aspera_00.jpg/640px-Achyranthes_aspera_00.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b281a" },
+    "name": "Lal sag",
+    "scientific_name": "Amaranthus tricolor L.",
+    "type": "Immunity",
+    "desc": "Red amaranth, a nutritious leafy vegetable used medicinally in India.",
+    "usage": "Leaves eaten as vegetable; seeds used for anemia and to boost general immunity.",
+    "benefits": "Nutritive, antioxidant, anti-inflammatory, iron-rich, immunostimulant",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Amaranthus_tricolor.jpg/640px-Amaranthus_tricolor.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b281b" },
+    "name": "Kataili chaulai",
+    "scientific_name": "Amaranthus spinosus L.",
+    "type": "Skin",
+    "desc": "Spiny amaranth used in folk medicine for skin and liver conditions.",
+    "usage": "Leaves used as poultice for skin boils; root decoction for snake bite and diuresis.",
+    "benefits": "Diuretic, anti-inflammatory, wound healing, antidiabetic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Amaranthus_spinosus_in_Hyderabad_W_IMG_6959.jpg/640px-Amaranthus_spinosus_in_Hyderabad_W_IMG_6959.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b281c" },
+    "name": "Atis",
+    "scientific_name": "Aconitum heterophyllum Wall. ex Royle",
+    "type": "Immunity",
+    "desc": "Atis root, a Himalayan herb used carefully in Ayurveda for immune and digestive support.",
+    "usage": "Processed root used for fever, digestive disorders, and as general tonic.",
+    "benefits": "Antipyretic, digestive, immunomodulatory, anti-inflammatory (processed use only)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Aconitum_heterophyllum.jpg/640px-Aconitum_heterophyllum.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b281d" },
+    "name": "Bikhima",
+    "scientific_name": "Aconitum bisma (Buch.-Ham.) Rapaics",
+    "type": "Immunity",
+    "desc": "A Himalayan aconite species used in Ayurvedic medicine after detoxification.",
+    "usage": "Processed root used for fever and as immunomodulatory tonic (must be detoxified before use).",
+    "benefits": "Antipyretic, anti-inflammatory, immunostimulant (use with caution)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Aconitum_septentrionale_flower.JPG/640px-Aconitum_septentrionale_flower.JPG"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b281e" },
+    "name": "Bach",
+    "scientific_name": "Acorus calamus L.",
+    "type": "Immunity",
+    "desc": "Sweet flag, a rhizomatous herb used extensively in Ayurveda and traditional medicine.",
+    "usage": "Rhizome powder used for digestive disorders, memory enhancement, and as nervine tonic.",
+    "benefits": "Nervine tonic, carminative, anti-inflammatory, nootropic, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Acorus_calamus.jpg/640px-Acorus_calamus.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b281f" },
+    "name": "Boro mankachu",
+    "scientific_name": "Alocasia macrorrhizos (L.) G.Don",
+    "type": "Skin",
+    "desc": "Giant taro used in tropical folk medicine for skin conditions.",
+    "usage": "Leaves applied topically as anti-inflammatory poultice; stem used for fever.",
+    "benefits": "Anti-inflammatory, analgesic, wound healing, antipyretic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Alocasia_macrorrhizos.jpg/640px-Alocasia_macrorrhizos.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2820" },
+    "name": "Ghee-kunvar",
+    "scientific_name": "Aloe vera (L.) Burm.f.",
+    "type": "Skin",
+    "desc": "The true aloe vera used widely in skin care and Ayurveda.",
+    "usage": "Gel extracted from leaves for burns, skin soothing, and oral consumption for digestive health.",
+    "benefits": "Skin soothing, wound healing, anti-inflammatory, laxative, antidiabetic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/640px-Aloe_vera_flower_inset.png"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2821" },
+    "name": "Piyaz",
+    "scientific_name": "Allium cepa L.",
+    "type": "Immunity",
+    "desc": "Onion, a widely used culinary and medicinal plant.",
+    "usage": "Bulb consumed raw or cooked; juice applied to insect bites and skin infections.",
+    "benefits": "Antibacterial, antioxidant, anti-inflammatory, cardiovascular protective, immunomodulatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Onion_on_a_white_background.jpg/640px-Onion_on_a_white_background.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2822" },
+    "name": "Bel",
+    "scientific_name": "Aegle marmelos (L.) Corr.",
+    "type": "Digestion",
+    "desc": "Bael, a sacred fruit tree with excellent digestive properties.",
+    "usage": "Ripe fruit pulp consumed for constipation; raw fruit for diarrhea and dysentery.",
+    "benefits": "Antidiarrheal, digestive, hepatoprotective, anti-inflammatory, antibacterial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Aegle_marmelos_fruits.jpg/640px-Aegle_marmelos_fruits.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2823" },
+    "name": "Kulanjan",
+    "scientific_name": "Alpinia galanga (L.) Willd.",
+    "type": "Digestion",
+    "desc": "Greater galangal used in cooking and traditional medicine for digestion.",
+    "usage": "Rhizome used for indigestion, nausea, and respiratory infections.",
+    "benefits": "Carminative, anti-inflammatory, antimicrobial, antifungal, digestive stimulant",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Alpinia_galanga_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-017.jpg/640px-Alpinia_galanga_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-017.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2824" },
+    "name": "Morang elaichi",
+    "scientific_name": "Amomum aromaticum Roxb.",
+    "type": "Digestion",
+    "desc": "Bengal cardamom used as digestive spice and in Ayurvedic medicine.",
+    "usage": "Seeds used for indigestion, flatulence, and nausea.",
+    "benefits": "Carminative, digestive, antimicrobial, anti-nausea",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Amomum_subulatum_fruit.jpg/640px-Amomum_subulatum_fruit.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2825" },
+    "name": "Bari elachi",
+    "scientific_name": "Amomum subulatum Roxb.",
+    "type": "Respiratory",
+    "desc": "Black cardamom, a large cardamom used in cooking and medicine.",
+    "usage": "Pods used for treating cough, throat infections, and as an expectorant.",
+    "benefits": "Expectorant, antimicrobial, carminative, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Amomum_subulatum_Black_Cardamom.jpg/640px-Amomum_subulatum_Black_Cardamom.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2826" },
+    "name": "Chatium",
+    "scientific_name": "Alstonia scholaris (L.) R.Br.",
+    "type": "Immunity",
+    "desc": "Devil tree, used in Ayurveda and folk medicine as immunity tonic.",
+    "usage": "Bark decoction used for fever, malaria, and as general tonic.",
+    "benefits": "Antimalarial, antipyretic, immunomodulatory, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Alstonia_scholaris_flowers.jpg/640px-Alstonia_scholaris_flowers.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2827" },
+    "name": "Kaju",
+    "scientific_name": "Anacardium occidentale L.",
+    "type": "Immunity",
+    "desc": "Cashew tree, whose bark and leaves are used medicinally.",
+    "usage": "Bark tea used for diabetes management; leaf decoction for toothache and fever.",
+    "benefits": "Antidiabetic, antimicrobial, anti-inflammatory, antioxidant",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cashew_apples_and_nuts.jpg/640px-Cashew_apples_and_nuts.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2828" },
+    "name": "Toothpick plant",
+    "scientific_name": "Ammi visnaga (L.) Lam.",
+    "type": "Respiratory",
+    "desc": "Khella or toothpick weed used for respiratory and urinary conditions.",
+    "usage": "Seeds used as bronchodilator for asthma; compound khellin extracted for kidney stones.",
+    "benefits": "Bronchodilator, antispasmodic, diuretic, coronary vasodilator",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ammi_visnaga_flowers.jpg/640px-Ammi_visnaga_flowers.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2829" },
+    "name": "Gorak",
+    "scientific_name": "Adansonia digitata L.",
+    "type": "Immunity",
+    "desc": "Baobab tree, the superfood tree of Africa, used widely for immune health.",
+    "usage": "Fruit pulp consumed for vitamin C; bark used for fever and malaria.",
+    "benefits": "Antioxidant, immunostimulant, anti-inflammatory, antimalarial, nutritive",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Adansonia_digitata_with_fruit_-_ZooParc_de_Beauval.jpg/640px-Adansonia_digitata_with_fruit_-_ZooParc_de_Beauval.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b282a" },
+    "name": "Hansraj",
+    "scientific_name": "Adiantum capillus-veneris L.",
+    "type": "Respiratory",
+    "desc": "Maidenhair fern, used in Ayurveda and European medicine for respiratory conditions.",
+    "usage": "Fronds made into syrup or tea for cough, bronchitis, and as expectorant.",
+    "benefits": "Expectorant, demulcent, anti-inflammatory, antipyretic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Adiantum_capillus-veneris.jpg/640px-Adiantum_capillus-veneris.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b282b" },
+    "name": "Pangar",
+    "scientific_name": "Aesculus indica Colebr. ex Camb.",
+    "type": "Immunity",
+    "desc": "Indian horse chestnut from the Himalayas used in folk medicine.",
+    "usage": "Seeds used for joint pain and fever; oil applied topically for rheumatism.",
+    "benefits": "Anti-inflammatory, analgesic, antipyretic, venotonic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Aesculus_indica.jpg/640px-Aesculus_indica.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b282c" },
+    "name": "Bans-keora",
+    "scientific_name": "Agave americana Blanco",
+    "type": "Digestion",
+    "desc": "Century plant, used in traditional medicine for digestive and skin disorders.",
+    "usage": "Sap (aguamiel) used for digestive disorders; leaves used topically for wounds.",
+    "benefits": "Digestive, anti-inflammatory, wound healing, antifungal",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Agave_americana_flower_stalk.jpg/640px-Agave_americana_flower_stalk.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b282d" },
+    "name": "Uchunti",
+    "scientific_name": "Ageratum conyzoides L.",
+    "type": "Skin",
+    "desc": "Billy goat weed used in tropical folk medicine for skin and wound care.",
+    "usage": "Leaves crushed and applied to wounds, skin infections, and burns.",
+    "benefits": "Wound healing, antimicrobial, anti-inflammatory, analgesic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ageratum_conyzoides_flower.jpg/640px-Ageratum_conyzoides_flower.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b282e" },
+    "name": "Utis",
+    "scientific_name": "Alnus nepalensis D.Don",
+    "type": "Skin",
+    "desc": "Nepalese alder, a tree used in folk medicine for skin and wound treatment.",
+    "usage": "Bark decoction used for skin diseases and as astringent; leaves applied for wounds.",
+    "benefits": "Astringent, anti-inflammatory, antimicrobial, wound healing",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Alnus_nepalensis_3.JPG/640px-Alnus_nepalensis_3.JPG"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b282f" },
+    "name": "Arlu",
+    "scientific_name": "Ailanthus excelsa Roxb.",
+    "type": "Respiratory",
+    "desc": "Indian tree of heaven, used in Ayurveda for respiratory and digestive issues.",
+    "usage": "Bark decoction used for asthma, bronchitis, and fever.",
+    "benefits": "Bronchodilator, anti-asthmatic, antipyretic, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ailanthus_altissima.jpg/640px-Ailanthus_altissima.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2830" },
+    "name": "Nilkanthi",
+    "scientific_name": "Ajuga bracteosa Wall. ex Benth.",
+    "type": "Immunity",
+    "desc": "Bugle weed from the Himalayas used in traditional medicine for fever and immunity.",
+    "usage": "Whole plant decoction used for fever, diabetes, and as general tonic.",
+    "benefits": "Antipyretic, antidiabetic, immunomodulatory, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ajuga_bracteosa.jpg/640px-Ajuga_bracteosa.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2831" },
+    "name": "Siris",
+    "scientific_name": "Albizzia lebbeck (L.) Willd.",
+    "type": "Respiratory",
+    "desc": "Woman's tongue tree, used in Ayurveda for respiratory and skin conditions.",
+    "usage": "Bark decoction used for asthma, bronchitis; seeds for eye diseases and skin infections.",
+    "benefits": "Anti-asthmatic, anti-inflammatory, antimicrobial, anti-allergic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Albizia_lebbeck_fruits.jpg/640px-Albizia_lebbeck_fruits.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2832" },
+    "name": "Bharbharra",
+    "scientific_name": "Alhagi pseudoalhagi (Bieb.) Desv.",
+    "type": "Digestion",
+    "desc": "Camel thorn, a thorny shrub used in folk medicine for digestive and skin disorders.",
+    "usage": "Aerial parts used as laxative and for treating skin diseases and hemorrhoids.",
+    "benefits": "Laxative, anti-inflammatory, antipyretic, wound healing",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Alhagi_pseudalhagi.jpg/640px-Alhagi_pseudalhagi.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2833" },
+    "name": "Harkakra",
+    "scientific_name": "Allamanda cathartica L.",
+    "type": "Immunity",
+    "desc": "Golden trumpet, an ornamental plant with antimicrobial and antiparasitic properties.",
+    "usage": "Bark extract used for fever and parasitic infections; leaves for skin conditions.",
+    "benefits": "Antimicrobial, antiparasitic, antipyretic, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Allamanda_cathartica_-_flowers.jpg/640px-Allamanda_cathartica_-_flowers.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2834" },
+    "name": "Birkubat",
+    "scientific_name": "Andrographis echinoides (L.) Nees",
+    "type": "Immunity",
+    "desc": "A small herb related to Kirayat, used in south Indian traditional medicine.",
+    "usage": "Whole plant used for fever, liver disorders, and as immune tonic.",
+    "benefits": "Antipyretic, hepatoprotective, immunostimulant, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Andrographis_paniculata_%28Acanthaceae%29.jpg/640px-Andrographis_paniculata_%28Acanthaceae%29.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2835" },
+    "name": "Aloysia",
+    "scientific_name": "Aloysia triphylla (LHerit) Britton",
+    "type": "Digestion",
+    "desc": "Lemon verbena, an aromatic herb used for digestive and nervine complaints.",
+    "usage": "Leaves brewed as tea for indigestion, flatulence, and anxiety.",
+    "benefits": "Carminative, antispasmodic, nervine tonic, anti-inflammatory, digestive",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Aloysia_triphylla_citrodora.jpg/640px-Aloysia_triphylla_citrodora.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2836" },
+    "name": "Akola",
+    "scientific_name": "Alangium salvifolium (L.f.) Wang.",
+    "type": "Immunity",
+    "desc": "Sage-leaved alangium used in Ayurveda as tonic and antirheumatic.",
+    "usage": "Bark and root decoction used for rheumatism, fever, and as general tonic.",
+    "benefits": "Anti-rheumatic, antipyretic, immunomodulatory, analgesic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Alangium_salvifolium.jpg/640px-Alangium_salvifolium.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2837" },
+    "name": "Gorakhganja",
+    "scientific_name": "Aerva lanata (L.) Juss.",
+    "type": "Immunity",
+    "desc": "Mountain knotgrass used in Ayurveda for urinary and immune health.",
+    "usage": "Whole plant decoction used for kidney stones, urinary infections, and as immune tonic.",
+    "benefits": "Diuretic, lithotriptic, immunomodulatory, anti-inflammatory, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Aerva_lanata_in_Hyderabad.JPG/640px-Aerva_lanata_in_Hyderabad.JPG"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2838" },
+    "name": "Jonkmari",
+    "scientific_name": "Anagallis arvensis L.",
+    "type": "Immunity",
+    "desc": "Scarlet pimpernel used in folk medicine for liver and immune disorders.",
+    "usage": "Aerial parts used for liver complaints, depression, and as blood purifier.",
+    "benefits": "Hepatoprotective, antidepressant, blood purifier, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Anagallis_arvensis.jpg/640px-Anagallis_arvensis.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2839" },
+    "name": "Ananas",
+    "scientific_name": "Ananas comosus (L.) Merr.",
+    "type": "Digestion",
+    "desc": "Pineapple, rich in bromelain enzyme for digestive and anti-inflammatory use.",
+    "usage": "Fruit consumed fresh or as juice for digestion; bromelain used for inflammation.",
+    "benefits": "Digestive enzyme (bromelain), anti-inflammatory, antioxidant, immune boosting",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/640px-Pineapple_and_cross_section.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b283a" },
+    "name": "Jangli-angur",
+    "scientific_name": "Ampelocissus arnottiana (Wight & Arn.) Planch.",
+    "type": "Immunity",
+    "desc": "A wild grape relative used in tribal medicine in India.",
+    "usage": "Root decoction used for fever and as immunity tonic in folk remedies.",
+    "benefits": "Antipyretic, antioxidant, immunostimulant, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ampelocissus_latifolia_leaves.jpg/640px-Ampelocissus_latifolia_leaves.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b283b" },
+    "name": "Gong",
+    "scientific_name": "Alpinia nigra (Gaertn.) B.L.Burtt",
+    "type": "Digestion",
+    "desc": "Black galangal used in Northeast Indian cooking and folk medicine.",
+    "usage": "Rhizome used as digestive spice and for stomach complaints.",
+    "benefits": "Carminative, digestive stimulant, anti-inflammatory, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Alpinia_galanga_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-017.jpg/640px-Alpinia_galanga_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-017.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b283c" },
+    "name": "Suranakanda",
+    "scientific_name": "Amorphophallus paeoniifolius (Dennst.) Nicolson",
+    "type": "Digestion",
+    "desc": "Elephant foot yam used in Ayurveda for digestive and hepatic disorders.",
+    "usage": "Corm consumed as vegetable and in Ayurvedic formulations for piles and digestive issues.",
+    "benefits": "Digestive, hepatoprotective, anti-inflammatory, antidiabetic, antihemorrhoidal",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amorphophallus_paeoniifolius.jpg/640px-Amorphophallus_paeoniifolius.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b283d" },
+    "name": "Kakamari",
+    "scientific_name": "Anamitra cocculus Wight & Arn.",
+    "type": "Skin",
+    "desc": "Fish berry plant, used cautiously in Ayurveda for skin and nervous system disorders.",
+    "usage": "Seeds used in very small quantities for skin diseases and as nervine; toxic in large doses.",
+    "benefits": "Antimicrobial, nervine (use with extreme caution), skin healing",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Cocculus_laurifolius_leaves.jpg/640px-Cocculus_laurifolius_leaves.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b283e" },
+    "name": "Jangli Mehndi",
+    "scientific_name": "Ammania auriculata Willd.",
+    "type": "Skin",
+    "desc": "Eared toothcup, a wetland herb used in folk medicine for skin conditions.",
+    "usage": "Leaf paste applied to skin for fungal infections, rashes, and inflammation.",
+    "benefits": "Antifungal, anti-inflammatory, wound healing, skin soothing",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ammannia_auriculata.jpg/640px-Ammannia_auriculata.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b283f" },
+    "name": "Dadmari",
+    "scientific_name": "Ammania baccifera L.",
+    "type": "Skin",
+    "desc": "Blistering ammannia used in folk medicine for skin diseases and herpes.",
+    "usage": "Leaf paste applied externally for ringworm, eczema, and skin infections.",
+    "benefits": "Antifungal, antibacterial, skin healing, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ammannia_baccifera.jpg/640px-Ammannia_baccifera.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2840" },
+    "name": "Couch grass",
+    "scientific_name": "Agropyron repens (L.) Beauv.",
+    "type": "Immunity",
+    "desc": "A perennial grass widely used in European and Ayurvedic herbal medicine.",
+    "usage": "Rhizome tea used for urinary tract infections and as immune tonic.",
+    "benefits": "Diuretic, antimicrobial, anti-inflammatory, immunomodulatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Elymus_repens_%28couch_grass%29_-_geograph.org.uk_-_545611.jpg/640px-Elymus_repens_%28couch_grass%29_-_geograph.org.uk_-_545611.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2841" },
+    "name": "Perumkorattaikodi",
+    "scientific_name": "Adenia wightiana (Wall. ex Wight & Arn.) Engl.",
+    "type": "Immunity",
+    "desc": "A wild climber used in tribal medicine in South India.",
+    "usage": "Root and leaf extracts used for immune support and skin conditions.",
+    "benefits": "Immunostimulant, anti-inflammatory, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Adenia_spinosa_01.jpg/640px-Adenia_spinosa_01.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2842" },
+    "name": "Silaras",
+    "scientific_name": "Altingia excelsa Noronha",
+    "type": "Respiratory",
+    "desc": "Rasamala tree, whose resin is used in traditional medicine for respiratory issues.",
+    "usage": "Resin used as expectorant for bronchitis and cough; also used in incense.",
+    "benefits": "Expectorant, anti-inflammatory, antimicrobial, antiseptic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Altingia_excelsa.jpg/640px-Altingia_excelsa.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2843" },
+    "name": "Tudambo",
+    "scientific_name": "Actinodaphne hookeri Meissn.",
+    "type": "Immunity",
+    "desc": "A laurel species used in tribal folk medicine in India.",
+    "usage": "Bark and leaves used as immune tonic and for treating fevers.",
+    "benefits": "Antipyretic, immunostimulant, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Actinodaphne_angustifolia.jpg/640px-Actinodaphne_angustifolia.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2844" },
+    "name": "Barigumchi",
+    "scientific_name": "Adenanthera pavonia L.",
+    "type": "Immunity",
+    "desc": "Red sandalwood tree, seeds used in traditional medicine for inflammation.",
+    "usage": "Seed decoction used for rheumatism, fever, and as anti-inflammatory.",
+    "benefits": "Anti-inflammatory, antipyretic, antioxidant, analgesic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Adenanthera_pavonina_seeds.jpg/640px-Adenanthera_pavonina_seeds.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2845" },
+    "name": "Morpankhi",
+    "scientific_name": "Actiniopteris radiata (Swartz) Link",
+    "type": "Immunity",
+    "desc": "Fan fern used in folk medicine for fever and general wellness.",
+    "usage": "Fronds used as decoction for fever, cough, and as general tonic.",
+    "benefits": "Antipyretic, expectorant, immunomodulatory, antioxidant",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Actiniopteris_radiata.jpg/640px-Actiniopteris_radiata.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2813" },
+    "name": "Mayurshikha",
+    "scientific_name": "Adiantum caudatum L.",
+    "type": "Respiratory",
+    "desc": "Tailed maidenhair fern, known in Sanskrit as Mayurshikha.",
+    "usage": "Fronds used for treating cough, asthma, fever, and hair-related disorders.",
+    "benefits": "Expectorant, antipyretic, anti-asthmatic, hair tonic",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Adiantum_caudatum.jpg/640px-Adiantum_caudatum.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2814" },
+    "name": "Kalijhant",
+    "scientific_name": "Adiantum philippense L.",
+    "type": "Respiratory",
+    "desc": "A maidenhair fern used in traditional medicine in India.",
+    "usage": "Used for treating fevers, cough, and liver complaints in Ayurvedic and folk medicine.",
+    "benefits": "Antipyretic, expectorant, hepatoprotective",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Adiantum_capillus-veneris_kz01.jpg/640px-Adiantum_capillus-veneris_kz01.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2815" },
+    "name": "Paowlay",
+    "scientific_name": "Acronychia pedunculata (L.) Miq.",
+    "type": "Digestion",
+    "desc": "Known as Paowlay in Nepal. A small tree found in tropical forests.",
+    "usage": "Bark and leaves used for treating fever, skin diseases, and digestive problems.",
+    "benefits": "Antipyretic, anti-inflammatory, digestive",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Acronychia_pedunculata.jpg/640px-Acronychia_pedunculata.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2816" },
+    "name": "Vishaphala",
+    "scientific_name": "Actaea spicata L.",
+    "type": "Immunity",
+    "desc": "Baneberry, known as Vishaphala in Kannada. A toxic plant used carefully.",
+    "usage": "Used in very small quantities for treating rheumatic pain and nervous disorders.",
+    "benefits": "Analgesic, anti-rheumatic, nervine (use with caution)",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Actaea_spicata.jpg/640px-Actaea_spicata.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2817" },
+    "name": "Ageli",
+    "scientific_name": "Anemone obtusiloba D. Don",
+    "type": "Skin",
+    "desc": "A Himalayan anemone found in alpine meadows, known as Ageli in Jaunsar.",
+    "usage": "Used for treating skin diseases, rheumatic pains, and as a rubefacient in folk medicine.",
+    "benefits": "Rubefacient, anti-rheumatic, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Anemone_obtusiloba.jpg/640px-Anemone_obtusiloba.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2818" },
+    "name": "Gandha priyangu",
+    "scientific_name": "Aglaia elaeagnoidea (Juss.) Benth.",
+    "type": "Skin",
+    "desc": "Known as Yerraaduga in Telugu. A tree used in Ayurvedic formulations.",
+    "usage": "Bark and flowers used for treating fever, skin diseases, and as an anti-inflammatory.",
+    "benefits": "Anti-inflammatory, antipyretic, antimicrobial",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Aglaia_odorata.jpg/640px-Aglaia_odorata.jpg"
+  },
+  {
+    "_id": { "$oid": "69fe3db6dce8878a176b2819" },
+    "name": "Chauli",
+    "scientific_name": "Alysicarpus vaginalis (L.) DC.",
+    "type": "Immunity",
+    "desc": "Also called Sauri. A forage legume with medicinal uses.",
+    "usage": "Used for treating fever, skin diseases, and as a diuretic in traditional medicine.",
+    "benefits": "Antipyretic, diuretic, anti-inflammatory",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Alysicarpus_vaginalis.jpg/640px-Alysicarpus_vaginalis.jpg"
+  }
+]
