@@ -47,7 +47,18 @@ function Remedies(){
 
     fetch("http://localhost:5000/remedies")
       .then(res => res.json())
-      .then(d => setData(d))
+      .then(d => {
+        if (Array.isArray(d)) {
+          setData(d)
+        } else {
+          console.error("Remedies data is not an array:", d)
+          setData([])
+        }
+      })
+      .catch(error => {
+        console.error("Failed to fetch remedies:", error)
+        setData([])
+      })
 
   },[])
 

@@ -78,6 +78,13 @@ function ChatModal({ isOpen, onClose }) {
                   <span>{message.text}</span>
                 </div>
               ))}
+
+              {error && (
+                <div className="message error">
+                  <span className="messageLabel">Error</span>
+                  <span>{error}</span>
+                </div>
+              )}
             </div>
 
             <div className="chatInputArea">

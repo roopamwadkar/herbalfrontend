@@ -25,7 +25,18 @@ function Plants(){
 
     fetch("http://localhost:5000/plants")
       .then(res => res.json())
-      .then(data => setPlantsData(data))
+      .then(data => {
+        if (Array.isArray(data)) {
+          setPlantsData(data)
+        } else {
+          console.error("Plants data is not an array:", data)
+          setPlantsData([])
+        }
+      })
+      .catch(error => {
+        console.error("Failed to fetch plants:", error)
+        setPlantsData([])
+      })
 
   },[])
 

@@ -40,26 +40,29 @@ function Navbar(){
   // SIGNUP
 
   const signupUser = async ()=>{
+    try {
+      const res = await fetch(
+        "http://localhost:5000/signup",
+        {
+          method:"POST",
+          headers:{
+            "Content-Type":"application/json"
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            password
+          })
+        }
+      )
 
-    const res = await fetch(
-      "http://localhost:5000/signup",
-      {
-        method:"POST",
-        headers:{
-          "Content-Type":"application/json"
-        },
-        body: JSON.stringify({
-          name,
-          email,
-          password
-        })
-      }
-    )
+      const data = await res.json()
 
-    const data = await res.json()
-
-    alert(data.msg)
-
+      alert(data.msg)
+    } catch (error) {
+      console.error("Signup failed:", error)
+      alert("Signup failed. Please try again.")
+    }
   }
 
 
@@ -67,37 +70,40 @@ function Navbar(){
   // LOGIN
 
   const loginUser = async ()=>{
+    try {
+      const res = await fetch(
+        "http://localhost:5000/login",
+        {
+          method:"POST",
+          headers:{
+            "Content-Type":"application/json"
+          },
+          body: JSON.stringify({
+            email,
+            password
+          })
+        }
+      )
 
-    const res = await fetch(
-      "http://localhost:5000/login",
-      {
-        method:"POST",
-        headers:{
-          "Content-Type":"application/json"
-        },
-        body: JSON.stringify({
-          email,
-          password
-        })
+      const data = await res.json()
+
+      if(data.msg === "ok"){
+
+        localStorage.setItem("user", email)
+
+        setUser(email)
+
+        setShow(false)   // CLOSE POPUP
+
+      }else{
+
+        alert("Wrong login")
+
       }
-    )
-
-    const data = await res.json()
-
-    if(data.msg === "ok"){
-
-      localStorage.setItem("user", email)
-
-      setUser(email)
-
-      setShow(false)   // CLOSE POPUP
-
-    }else{
-
-      alert("Wrong login")
-
+    } catch (error) {
+      console.error("Login failed:", error)
+      alert("Login failed. Please try again.")
     }
-
   }
 
 

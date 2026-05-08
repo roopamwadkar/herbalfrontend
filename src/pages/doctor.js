@@ -33,7 +33,18 @@ function Doctor(){
 
     fetch("http://localhost:5000/doctors")
       .then(res => res.json())
-      .then(d => setData(d))
+      .then(d => {
+        if (Array.isArray(d)) {
+          setData(d)
+        } else {
+          console.error("Doctors data is not an array:", d)
+          setData([])
+        }
+      })
+      .catch(error => {
+        console.error("Failed to fetch doctors:", error)
+        setData([])
+      })
 
   },[])
 
