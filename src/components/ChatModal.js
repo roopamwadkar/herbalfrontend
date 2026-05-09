@@ -1,5 +1,7 @@
 import { useState } from "react"
 
+const CHATBOT_API_URL = process.env.REACT_APP_CHATBOT_API_URL || "https://chatbot-uz66.onrender.com"
+
 function ChatModal({ isOpen, onClose }) {
   const [query, setQuery] = useState("")
   const [history, setHistory] = useState([])
@@ -18,7 +20,7 @@ function ChatModal({ isOpen, onClose }) {
     setLoading(true)
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/chat', {
+      const response = await fetch(`${CHATBOT_API_URL}/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

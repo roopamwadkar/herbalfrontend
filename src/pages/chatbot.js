@@ -1,6 +1,8 @@
 import Navbar from "../components/navbar"
 import { useState } from "react"
 
+const CHATBOT_API_URL = process.env.REACT_APP_CHATBOT_API_URL || "https://chatbot-uz66.onrender.com"
+
 function Chatbot() {
   const [query, setQuery] = useState("")
   const [history, setHistory] = useState([])
@@ -19,7 +21,7 @@ function Chatbot() {
     setLoading(true)
 
     try {
-      const response = await fetch('http://127.0.0.1:5000/chat', {
+      const response = await fetch(`${CHATBOT_API_URL}/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -57,7 +59,7 @@ function Chatbot() {
           <div>
             <h1>Herbal Chatbot</h1>
             <p className="chatDescription">
-              Ask questions about medicinal plants, remedies, benefits, and practical uses. Responses come from the Flask backend at <strong>http://127.0.0.1:5000/chat</strong>.
+              Ask questions about medicinal plants, remedies, benefits, and practical uses. Responses are served from the live chatbot API at <strong>{CHATBOT_API_URL}/chat</strong>.
             </p>
           </div>
         </div>

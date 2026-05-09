@@ -39,6 +39,39 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Vercel deployment with live chatbot API
+
+1. Use the live chatbot API endpoint:
+
+   - `https://chatbot-uz66.onrender.com/chat`
+
+2. Configure Vercel environment variable:
+
+   - `REACT_APP_CHATBOT_API_URL=https://chatbot-uz66.onrender.com`
+
+3. Deploy the frontend to Vercel:
+
+   - Connect your GitHub repository to Vercel.
+   - Set the project framework to Create React App.
+   - Add the environment variable above in Vercel dashboard under Settings > Environment Variables.
+
+4. Build command:
+
+   - `npm run build`
+
+5. Output directory:
+
+   - `build`
+
+6. Test the deployed chatbot page after deployment by visiting `/chatbot` or using the chat bubble from any protected route.
+
+## Next steps
+
+- Confirm the Render backend allows cross-origin requests from your Vercel domain.
+- If needed, add CORS support on the backend or use a Vercel rewrite/proxy.
+- Verify that `REACT_APP_CHATBOT_API_URL` is set in both Preview and Production environments.
+- Optionally, add frontend error handling for network failures and API timeouts.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
